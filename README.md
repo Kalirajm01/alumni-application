@@ -1,2 +1,2 @@
-# alumini-application
+# PSG iTech Alumini Application
  
