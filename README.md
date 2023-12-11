@@ -1,20 +1,30 @@
 # PSG iTech Alumni Application
 
 ## Table of Contents
+
+- [Prerequisites](#Prerequisites)
 - [Front-end](#Front-end)
 - [Back-end](#Back-end)
 
+## Prerequisites
+
+- Node.js 14.x or higher
+- Python 3.8 or higher
+- Visual Studio Code
+- Any Browser
+- Windows, macOS, or Linux operating system
+
 ## Front-end
+
 1. Clone the repository:
-(Open terminal or command prompt and type the following commands)
+   (Open terminal or command prompt and type the following commands)
 
 git clone https://github.com/Kalirajm01/alumni-application.git
 
 cd alumni-application
 
-cd alumni-application-frontend
+cd alumni-frontend
 
 npm install
 
 npm start
-
