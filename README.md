@@ -23,7 +23,7 @@ git clone https://github.com/Kalirajm01/alumni-application.git
 
 cd alumni-application
 
-cd alumni-frontend
+cd alumni-application-frontend
 
 npm install
 
