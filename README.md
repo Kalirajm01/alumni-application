@@ -14,7 +14,6 @@
 - Any Browser
 - Windows, macOS, or Linux operating system
 
-## Front-end
 
 1. Clone the repository:
    (Open terminal or command prompt and type the following commands)
