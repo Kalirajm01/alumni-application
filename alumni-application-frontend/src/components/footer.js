@@ -1,23 +1,19 @@
-import React from 'react';
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import "../styles/Footer.css";
 
-const Footer = () => {
+
+function Navbar() {
+  const [openLinks, setOpenLinks] = useState(false);
+  const toggleNavbar = () => {
+    setOpenLinks(!openLinks);
+  };
   return (
-    <footer style={styles.footer}>
-    </footer>
+    <div className="footer">
+      <p>Copyright &copy; PSG iTech  {new Date().getFullYear()}</p>
+    </div>
   );
-};
+}
 
-const styles = {
-  footer: {
-    backgroundColor: '#0F5CBF',
-    padding: '10px',
-    position: 'fixed',
-    bottom: '0',
-    width: '100%',
-    height: '165px',
-    flexShrink: 0,
-  },
-  
-};
-
-export default Footer;
+export default Navbar;

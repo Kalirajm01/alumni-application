@@ -1,0 +1,10 @@
+.menuitem {
+    width: 50%;
+    height: 100px;
+    background-color: #0F5CBF;
+    display: flex;
+    flex-direction: row;
+    font-family: DM Sans;
+    font-size: 22px;
+    font: bold;  
+}

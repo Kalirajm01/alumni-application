@@ -1,41 +1,40 @@
-import React from 'react';
-import './navbar';
-import { Link, BrowserRouter as Router,Routes,Route} from 'react-router-dom'; 
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
+import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
+import Signup from "../pages/Signup";
+import Menu from "../pages/Menu";
 
-const Navbar = () => {
+function Navbar() {
+  const [openLinks, setOpenLinks] = useState(false);
+  const toggleNavbar = () => {
+    setOpenLinks(!openLinks);
+  };
   return (
-    <nav className="navbar">
-      {/* Logo */}
-      <Link to="/" className="navbar-logo">
-        <img src="public\img\PSGiTech Logo.png" alt="Logo" />
-        <span>PSG iTech Alumni Application</span>
+    <div className="navbar">
+      <div className="leftSide" id={openLinks ? "open" : "close"}>
+        <img src={Logo} />
+        <h1>PSG iTECH Alumni Application</h1>
+      </div>
+      <div className="rightSide">
+        <Link to="/"> Home </Link>
+        <Link to="/about"> About Us</Link>
+        <Link to="/jobs">Jobs/Interships</Link>
+        <Link to="/connect"> Connect</Link>
+        <Link to="/contact"> Contact</Link>
+        <Link to="/signup">
+        <button onClick={Signup} className="signup">Signin</button>
+        </Link>
+      </div>
+      <div className="Menu">
+      <Link to="/menu">
+        <button onclick = {Menu} >< FaBars/>
+        </button>
       </Link>
-
-      {/* Navigation Links */}
-      <ul className="navbar-links">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About Us</Link>
-        </li>
-        <li>
-          <Link to="/jobs">Jobs/Internships</Link>
-        </li>
-        <li>
-          <Link to="/connect">Connect</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact Us</Link>
-        </li>
-      </ul>
-
-      {/* Sign Up Button */}
-      <Link to="/signup" className="signup-button">
-        Sign Up
-      </Link>
-    </nav>
+      </div>
+    </div>
   );
-};
+}
 
 export default Navbar;
