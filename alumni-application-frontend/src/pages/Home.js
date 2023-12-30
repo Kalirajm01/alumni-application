@@ -1,6 +1,6 @@
 import React from 'react'
 import Events from '../components/events'
-import News from '../components/news'
+import News from '../components/News'
 import Welcome from '../components/Welcome'
 import Map from '../components/Map'
 
