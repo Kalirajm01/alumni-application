@@ -1,5 +1,5 @@
 import React from 'react'
-import Events from '../components/events'
+import Events from '../components/Events'
 import News from '../components/News'
 import Welcome from '../components/Welcome'
 import Map from '../components/Map'
