@@ -1,7 +1,7 @@
 import React from 'react'
 //import { Link } from "react-router-dom";
-//import Signup from './Signup';
-import "../styles/Menu.css";
+//import Signup from './signup';
+import "../styles/menu.css";
 
 
 function Menu() {

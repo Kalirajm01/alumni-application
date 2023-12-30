@@ -1,12 +1,12 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Jobs from "./pages/Jobs";
-import Connect from "./pages/Connect";
-import Contact from "./pages/Contact";
-import Signup from "./pages/Signup";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Jobs from "./pages/jobs";
+import Connect from "./pages/connect";
+import Contact from "./pages/contact";
+import Signup from "./pages/signup";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 

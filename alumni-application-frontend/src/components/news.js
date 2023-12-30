@@ -1,7 +1,7 @@
 // components/Events.js
 
 import React from 'react';
-import '../styles/News.css'
+import '../styles/news.css'
 
 function Events(){
 /*

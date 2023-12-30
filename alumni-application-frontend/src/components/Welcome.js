@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Image from '../assets/PSGiTech_Front_View.jpg';
-import '../styles/Welcome.css'
-import Signup from "../pages/Signup";
+import '../styles/welcome.css'
+import Signup from "../pages/signup";
 
 const Welcome = () => {
   return (

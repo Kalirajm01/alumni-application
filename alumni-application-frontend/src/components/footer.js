@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import "../styles/Footer.css";
+import "../styles/footer.css";
 
 
 function Navbar() {

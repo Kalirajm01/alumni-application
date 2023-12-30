@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import "../styles/Navbar.css";
-import Signup from "../pages/Signup";
-import Menu from "../pages/Menu";
+import "../styles/navbar.css";
+import Signup from "../pages/signup";
+import Menu from "../pages/menu";
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);

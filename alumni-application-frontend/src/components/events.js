@@ -1,7 +1,7 @@
 // components/Events.js
 
 import React from 'react';
-import '../styles/Events.css'
+import '../styles/events.css'
 
 function Events(){
 /*
